@@ -32,23 +32,18 @@ nav{
 }
 
 .logo{
-    width: 180px;
-    margin-right: 45px;
+    width: 200px;
 }
-
-.nav-left, .nav-right{
+.middle-nav ul li{
+    display: inline;
+}
+.middle-nav ul li img{
+    width: 28px;
+    margin: 0 25px;
+}
+.middle-nav, .right-nav{
     display: flex;
     align-items: center;
-}
-
-.nav-left ul li{
-    list-style: none;
-    display: inline-block;
-}
-
-.nav-left ul li img{
-    width: 28px;
-    margin: 0 15px;
 }
 
 .nav-user-icon img{
@@ -63,7 +58,7 @@ nav{
 
 .search-box{
 background: #efefef;
-width: 350px;
+width: 250px;
 border-radius: 20px;
 display: flex;
 align-items: center;
@@ -641,15 +636,136 @@ padding: 0 15px;
     left: 0;
 }
 
+/*------------SignIn -Page-----------------*/
+.logo-copy{
+    width: 400px; 
+    padding-bottom: 15px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-up{
+    margin-top: 150px;
+    margin-right: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+    padding: 25px;
+    background: white;
+}
 
+.left-up {
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.left-up p{
+    font-weight: 500;
+    font-style:initial;
+    font-size: 18px;
+}
+.right-up ul li{
+    list-style: none;
+}
+.right-up ul li input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 4;
+    width: 350px;
+    border-color: #9a9a9a;
+    margin-bottom: 10px;
+}
+.login-btn{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid rgb(230, 64, 119);
+    color:  white;
+    background: rgb(230, 64, 119);
+    border-radius: 4px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.create-btn{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid rgb(9, 219, 114);
+    color:  white;
+    background: rgb(9, 219, 114);
+    border-radius: 4px;
+    width: 300px;
+    font-size: 20px;  
+    margin-bottom: 10px;
+}
+.right-up hr, .createnew hr{
+    border: 0;
+    height: 2px;
+    background: #9a9a9a;
+    margin: 15px 0;
+}
+.right-up a{
+    color:rgb(230, 64, 119) ;
+    margin: 0 75px;
+}
 
+/*------------SignUp -Page-----------------*/
+.createnew{
+    margin: 25px 400px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+    padding: 25px;
+    background: white;
+}
+.createnew ul li input {
+    width: 100%;
+    background: transparent;
+    padding: 15px;
+    outline: none;
+    border: 4;
+    width: 500px;
+    border-color: #9a9a9a;
+    margin-bottom: 10px;
+}
+.createnew ul li {
+    display: inline;
+}
+.select-gender, .dateofbirth {
+    box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+     width: 100%;
+    background: transparent;
+    padding: 10px;
+    padding-left: 75px;
+    outline: none;
+    border: 4;
+    width: 500px;
+    border-color: rgba(0,0,0, 0.4);
+    margin-bottom: 15px;
+   justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
-
+.select-gender label{
+    padding-right: 40px;
+}
+.dateofbirth select{
+    margin-left: 30px;
+}
+.terms{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.cut{
+    top: 0;
+    right: 0;
+    width: 40px;
+    margin-left: 150px;
+    cursor: pointer;
+}
+.createnew ul a, .right-up a{
+    text-decoration: none;
+    color:rgb(230, 64, 119);
+    width: fit-content;
+}
