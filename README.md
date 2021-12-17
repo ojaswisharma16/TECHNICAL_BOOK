@@ -19,3 +19,17 @@ Landing page of a website (Inspired from Facebook's Landing page) having Technol
 
 
 ![MasterHead](https://github.com/ojaswisharma16/TECHNICAL_BOOK/blob/main/images/light-theme.png)
+
+
+∎Log In Page: 
+
+
+![MasterHead](https://github.com/ojaswisharma16/TECHNICAL_BOOK/blob/main/images/Login-Page-Readme.png)
+
+
+∎ Sign Up Page: 
+
+
+![MasterHead](https://github.com/ojaswisharma16/TECHNICAL_BOOK/blob/main/images/Sign-Up-Page-Readme.png)
+
+
